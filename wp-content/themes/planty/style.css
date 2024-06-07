@@ -11,10 +11,56 @@
  Text Domain:  planty
 */
 
+.wp-image-25, .wp-image-26 {
+    position: absolute;
+    top: 150px;
+    
+}
 
-.form-combi {
+
+
+
+.wp-image-36 {
+    position: absolute;
+    top: 71px; 
+}
+
+.wp-image-137 {
+    position: absolute;
+    top: -228px; 
+    right: -150px; 
+}
+
+.wp-image-35 {
+    position: absolute;
+    bottom: 110px;
+    z-index: -10;
+}
+
+.form-label {
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-contact-container {
     display: flex;
     justify-content: center;
+}
+
+.form-contact .form-label-message .wpcf7-form-control {
+    width: 383px ;
+    height: 237px ;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+
+.elementor-widget-container .fruits {
+ width: 65px;
+ height: 65px;
+ margin-left: 60px;
 }
 
 .form-infos h3, .form-livraison h3 {
@@ -25,20 +71,14 @@
     margin-bottom: 29px;
 }
 
-
-.form-contact .wpcf7-form  label {
+.form-contact .form-label {
     color: #000000;
-    font-family: 'Syne', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
 }
 
-.form-combi .wpcf7-form  label {
+.form-combi .form-label {
     color: #ffff;
-    font-family: 'Syne', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
 }
+
 
 .form-combi .wpcf7-form-control, .form-contact .wpcf7-form-control {
     width: 383px ;
@@ -48,7 +88,13 @@
     border-radius: 7px;
 }
 
+.form-combi {
+    display: flex;
+    justify-content: center;
+}
+
 .form-infos {
+    height: 570px;
     border-right: 1px solid #ffff;
     padding-right: 50px;
 }
@@ -76,3 +122,4 @@
 .form-submit:hover {
     background-color: #C02E44;
 }
+

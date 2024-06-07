@@ -1,0 +1,78 @@
+/**
+ Theme Name:   Planty
+ Theme URI:    https://openclassrooms.com/
+ Description:  Thème Planty basé sur le thème Astra
+ Author:       Maxime
+ Author URI:   https://openclassrooms.com/
+ Template:     astra
+ Version:      1.0.0
+ License: GNU General Public License v2 or later
+ License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  planty
+*/
+
+
+.form-combi {
+    display: flex;
+    justify-content: center;
+}
+
+.form-infos h3, .form-livraison h3 {
+    font-family: 'Syne', sans-serif;
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+
+.form-contact .wpcf7-form  label {
+    color: #000000;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-combi .wpcf7-form  label {
+    color: #ffff;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-combi .wpcf7-form-control, .form-contact .wpcf7-form-control {
+    width: 383px ;
+    height: 71px ;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+.form-infos {
+    border-right: 1px solid #ffff;
+    padding-right: 50px;
+}
+
+.form-livraison {
+    padding-left: 50px;
+}
+
+.form-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 198px;
+    height: 55px;
+    background-color: #DC9F96;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.form-submit:hover {
+    background-color: #C02E44;
+}

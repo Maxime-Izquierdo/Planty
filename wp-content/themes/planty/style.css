@@ -11,21 +11,34 @@
  Text Domain:  planty
 */
 
-.wp-image-25, .wp-image-26 {
-    position: absolute;
-    top: 150px;
-    
+#masthead .ast-primary-header-bar .ast-container {
+    padding-right: 0;
 }
 
-.wp-image-36 {
+
+.wp-image-25, .wp-image-26 {
     position: absolute;
-    top: 71px; 
+    top: 150px; 
+}
+
+.wp-image-25 {
+    right: -5px ;
+}
+
+.wp-image-26 {
+    right : 360px ;
+}
+
+.elementor-element-36dbad5{
+    position: absolute;
+    top: 71px;
+    right: 500px;
 }
 
 .wp-image-137 {
     position: absolute;
     top: -228px; 
-    right: -150px; 
+    right: 20px;
 }
 
 .wp-image-35 {
@@ -54,10 +67,9 @@
 }
 
 
-.elementor-widget-container .fruits {
+.fruits {
  width: 65px;
- height: 65px;
- margin-left: 60px;
+ height: 40px;
 }
 
 .form-infos h3, .form-livraison h3 {
@@ -75,7 +87,6 @@
 .form-combi .form-label {
     color: #ffff;
 }
-
 
 .form-combi .wpcf7-form-control, .form-contact .wpcf7-form-control {
     width: 383px ;
@@ -120,3 +131,96 @@
     background-color: #C02E44;
 }
 
+.wpcf7-form.invalid .form-submit {
+    background-color: #DC9F96
+}
+
+.wpcf7-form.invalid .form-submit:hover {
+    background-color: #C02E44;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.wp-image-25, .wp-image-26 {
+    position: relative;
+    top: 250px;
+}
+
+.wp-image-31 {
+    position: relative;
+    bottom: 300px;
+}
+
+.wp-image-25 {
+    position: relative;
+    left: 8px;
+}
+
+.wp-image-26 {
+    position: relative;
+    right: 12px;
+}
+
+    
+.elementor-element-36dbad5 {
+    position: relative;
+    top: -10px;
+    right: 1px;
+}
+
+.elementor-element-19cda12 {
+    position: relative;
+    right: 260px;
+}  
+}
+
+@media (max-width: 767px) {
+    @media (max-width: 767px) {
+
+.elementor-element-36dbad5 {
+    position: relative;
+    right: 1px;
+    top: -10px;
+}
+        
+        
+.form-contact .form-label-message .wpcf7-form-control {
+    width: 100%;
+    height: 237px ;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+.form-combi .wpcf7-form-control, .form-contact .wpcf7-form-control {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form-combi {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.form-infos {
+    height: 470px;
+    border-right: none;
+    padding-right: 0;
+}
+
+.form-infos h3, .form-livraison h3 {
+    font-size: 20px;
+}
+
+.form-label {
+    font-size: 16px;   
+}
+
+
+.form-livraison {
+    padding-top: 50px;
+    padding-left: 0;
+}
+}
+}
+  

@@ -44,3 +44,11 @@
 [07-Jun-2024 13:22:34 UTC] PHP Deprecated:  Use of "self" in callables is deprecated in C:\xampp\htdocs\Planty\wp-content\themes\astra\inc\customizer\class-astra-customizer-sanitizes.php on line 362
 [07-Jun-2024 13:22:34 UTC] PHP Deprecated:  Use of "self" in callables is deprecated in C:\xampp\htdocs\Planty\wp-content\themes\astra\inc\customizer\class-astra-customizer-sanitizes.php on line 364
 [07-Jun-2024 14:53:43 UTC] PHP Deprecated:  La fonction wp_update_https_detection_errors est obsolète depuis la version 6.4.0, aucune alternative n’est disponible. in C:\xampp\htdocs\Planty\wp-includes\functions.php on line 6078
+[11-Jun-2024 12:26:30 UTC] PHP Deprecated:  Use of "self" in callables is deprecated in C:\xampp\htdocs\Planty\wp-content\themes\astra\inc\customizer\class-astra-customizer-sanitizes.php on line 360
+[11-Jun-2024 12:26:30 UTC] PHP Deprecated:  Use of "self" in callables is deprecated in C:\xampp\htdocs\Planty\wp-content\themes\astra\inc\customizer\class-astra-customizer-sanitizes.php on line 362
+[11-Jun-2024 12:26:30 UTC] PHP Deprecated:  Use of "self" in callables is deprecated in C:\xampp\htdocs\Planty\wp-content\themes\astra\inc\customizer\class-astra-customizer-sanitizes.php on line 364
+[11-Jun-2024 12:26:30 UTC] PHP Deprecated:  Use of "self" in callables is deprecated in C:\xampp\htdocs\Planty\wp-content\themes\astra\inc\customizer\class-astra-customizer-sanitizes.php on line 360
+[11-Jun-2024 12:26:30 UTC] PHP Deprecated:  Use of "self" in callables is deprecated in C:\xampp\htdocs\Planty\wp-content\themes\astra\inc\customizer\class-astra-customizer-sanitizes.php on line 362
+[11-Jun-2024 12:26:30 UTC] PHP Deprecated:  Use of "self" in callables is deprecated in C:\xampp\htdocs\Planty\wp-content\themes\astra\inc\customizer\class-astra-customizer-sanitizes.php on line 364
+[20-Jun-2024 09:22:43 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp\htdocs\Planty\wp-includes\class-wpdb.php on line 1987
+[20-Jun-2024 09:22:44 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp\htdocs\Planty\wp-includes\class-wpdb.php on line 1987

@@ -4,17 +4,10 @@ add_action( 'wp_enqueue_scripts', 'planty_enqueue_styles' );
 
 function planty_enqueue_styles() {
     
-    wp_enqueue_style( 
-        'astra-style', 
-        get_template_directory_uri() . '/style.css' 
-    );
+    wp_enqueue_style('astra-style', get_template_directory_uri() . '/style.css') ;
     
     
-    wp_enqueue_style( 
-        'planty-style',
-        get_stylesheet_directory_uri() . '/style.css',
-        array('astra-style') 
-    );
+    wp_enqueue_style('planty-style', get_stylesheet_directory_uri() . '/style.css', array('astra-style')) ;
 }
 
 function hide_admin_link_for_non_logged_in_users() {
